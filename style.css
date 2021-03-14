@@ -69,6 +69,7 @@ body {
 .allImageContainer {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .allImageContainer div {
@@ -80,7 +81,8 @@ body {
 }
 
 .allImageContainer img {
-    width: 100%;
+    width: 128px;
+    height: 72px;
     border: 6px solid white;
     box-sizing: border-box;
 }
